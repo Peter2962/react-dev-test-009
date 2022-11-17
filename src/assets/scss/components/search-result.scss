@@ -1,0 +1,25 @@
+.search-result-component {
+	.search-result-component-carousel-wrapper {
+		h3 {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		.search-result-component-carousel-item {
+			transition: 0.2s ease;
+			text-decoration: none;
+			min-height: 250px;
+			background-color: #ddd;
+			padding: 15px;
+			border-radius: 15px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			&:hover {
+				background-color: #efefef;
+			}
+			p {
+				text-align: center;
+			}
+		}
+	}
+}

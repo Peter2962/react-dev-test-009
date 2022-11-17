@@ -1,0 +1,23 @@
+.header-component {
+	border-bottom: 5px solid;
+	margin-bottom: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	.hstack {
+		align-items: flex-end;
+	}
+	.header-component-logo {
+		h1 {
+			margin-bottom: 0;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+	.header-component-search-icon {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		margin-right: 10px;
+	}
+}
